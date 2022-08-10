@@ -1,0 +1,41 @@
+body{
+  margin: 0px;
+}
+
+.nav{
+  height: 80px;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-spotify{
+  height: 44.984px;
+  width: 132px;
+  cursor: pointer;
+}
+
+.nav-item{
+  text-decoration: none;
+  color: white;
+  padding: 28px 17px;
+  font-weight: 700;
+}
+.nav-item:hover{
+ color: #1ed760;
+}
+
+.main{
+  height: 969px;
+  background: rgb(41,65,171);
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-size: 175%;
+  background-position: 46% 4%;
+}
+
+.footer{
+  height: 530px;
+  background: black;
+}
