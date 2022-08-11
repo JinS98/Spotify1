@@ -33,6 +33,53 @@ body{
   background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
   background-size: 175%;
   background-position: 46% 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main1{
+  color: #1ed760;
+  text-align: center;
+}
+
+.main1-first{
+  font-size: 146px;
+  line-height: 166px;
+  font-weight: 900;
+  position: relative;
+  right: 225px;
+  padding-bottom: 40px;
+}
+
+.main1-second{
+  font-size: 146px;
+  line-height: 166px;
+  font-weight: 900;
+  position: relative;
+  left: 225px;
+  padding-bottom: 40px;
+}
+
+.main2{
+  color: #1ed760;
+  text-align: center;
+}
+
+.main-button{
+  background: #1ed760;
+  color: rgb(41,65,171);
+  border: none;
+  border-radius: 50px;
+  padding: 14px 32px;
+  font-weight: 700;
+  font-size: inherit;
+}
+
+.main-button:hover{
+      transform: scale(1.07);
+    background-color: #2de26d;
 }
 
 .footer{
