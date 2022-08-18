@@ -4,7 +4,7 @@ body{
 
 .nav{
   height: 80px;
-  background: black;
+  background: white;
   color: white;
   display: flex;
   justify-content: space-around;
